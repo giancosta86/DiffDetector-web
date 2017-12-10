@@ -46,7 +46,7 @@ Its root path is **/v1/diff** and its subpaths are:
 
 #### Setting left and right - Request message
 
-```json
+```javascript
 {
     "base64Data": "binary data encoded in standard base64"
 }
@@ -55,7 +55,7 @@ Its root path is **/v1/diff** and its subpaths are:
 
 #### Comparison - Response message
 
-```json
+```javascript
 {
     "sameLength": true, //Boolean. If false, diffs are always empty
     "diffs": [
